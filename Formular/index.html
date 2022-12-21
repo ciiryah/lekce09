@@ -18,6 +18,28 @@
 
 	<form method="post" action="http://formular.itgirls.cz/">
 		<label for="adresa">Jmeno:</label> <input type="text" name="Adresa" id="adresa" value="Opletalova 333, 000 00 brno" placeholder="+420 xxx xxx xxx" >
+
+		<form method="get" action="http://formular.itgirls.cz/">
+			<label for="adresa">Jmeno:</label> <input type="text" name="Adresa" id="adresa" value="Opletalova 333, 000 00 brno" placeholder="+420 xxx xxx xxx" >
+	
+			<label for="vek">Vek:</label> <input type="number" min="10000" value="10000" step="100" id="vek" name="vek">
+	
+			<label for="email">Email:</label><input type="email" id="email" name="email">
+	
+			<label for="mobil">Mobil:</label><input type="tel" id="mobil" name="mobil">
+	
+			<label for="datum">Datum:</label><input type="datetime-local" id="datum" name="datum">
+	
+			<label for="pass">Heslo:</label><input type="password" id="pass" name="heslo">
+	
+			<input type="hidden" name="ID" value="XYZ 124182319273">
+	
+			<br>
+			<br>
+	
+			<input type="submit" value="Odeslat formular">
+	
+		</form>
 	</form>
 </body>
 </html>
